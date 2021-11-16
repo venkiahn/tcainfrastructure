@@ -10,17 +10,20 @@ Install and configure
 - AWS CLI
 
 ## Setup your local environment
+```
 pipenv install && pipenv shell
 npm install
 export $PATH:$(pwd)/node_modules/.bin
+```
 
 # Quick Deployment
 Clone this repository to your local machine
+```
 git clone https://github.com/venkiahn/tcainfrastructure.git
 cd tcainfrastructure.git
 cdk bootstrap
 cdk deploy --require-approval never --all
-
+```
 
 Additional CDK Information
 
