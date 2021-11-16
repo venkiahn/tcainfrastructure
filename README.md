@@ -1,7 +1,31 @@
 
-# Welcome to your CDK Python project!
+# Servian TechChallenge Solution!
 
-This is a blank project for Python development with CDK.
+This is an IaC project written in Python with CDK.
+
+## Pre-requisites
+Install and configure
+- Git
+- CDK
+- AWS CLI
+
+## Setup your local environment
+```
+pipenv install && pipenv shell
+npm install
+export $PATH:$(pwd)/node_modules/.bin
+```
+
+# Quick Deployment
+Clone this repository to your local machine
+```
+git clone https://github.com/venkiahn/tcainfrastructure.git
+cd tcainfrastructure/
+cdk bootstrap
+cdk deploy --require-approval never --all
+```
+
+Additional CDK Information
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
