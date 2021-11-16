@@ -20,6 +20,11 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core==1.130.0",
+        "aws-cdk.ec2==1.130.0",
+        "aws-cdk.ecs==1.130.0",
+        "aws-cdk.rds==1.130.0",
+        "aws-cdk.elasticloadbalancingv2==1.13.0",
+        "aws-cdk.ecr==1.13.0"
     ],
 
     python_requires=">=3.6",
