@@ -20,7 +20,7 @@ export $PATH:$(pwd)/node_modules/.bin
 Clone this repository to your local machine
 ```
 git clone https://github.com/venkiahn/tcainfrastructure.git
-cd tcainfrastructure.git
+cd tcainfrastructure/
 cdk bootstrap
 cdk deploy --require-approval never --all
 ```
