@@ -1,6 +1,8 @@
 
 # Servian TechChallenge Solution!
 
+![Architecture](./img/techchallengeapp.png)
+
 This is an IaC project written in Python with CDK.
 
 ## Pre-requisites
